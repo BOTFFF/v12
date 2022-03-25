@@ -1,18 +1,22 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Minggu* :      *Rp 5.000*
-╠➥ *1 Bulan* :      *Rp 10.000*
-╠➥ *Permanen* : *Rp 25.000*
-╠➥ *Trial* :   *Rp 0*
+╠➥ *PERMANEN + PREM* :*Rp 15.000*
+╠➥ *PERMANEN* :*Rp 10.000*
+╠➥ *PERBULAN* :*Rp 7.000*
+╠➥ *PERMINGGU* :*Rp 4.000*
+╠➥ *PERHARI* :*Rp 2.000*
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
-╠➥ Topup/Pin
-║
+╠➥ GOPAY
+║➥ DANA
+║➥ OVO
+║➥ SHOPEEPAY
+║➥ QRIS ALLPAYMENT
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Klil Button Di Bawah
 ║
-╠═〘 Hyzer 〙 ═`.trim(), '❖ Kanao-Bot', 'Gopay', '#viadigi', 'Dana', '#viaumobile', m)
+╠═〘 wz store 〙 ═`.trim(), '❖ Wz-Bot', 'Gopay', '#viadigi', 'Dana', '#viaumobile', m)
 }
 
 handler.command = /^sewabot$/i
