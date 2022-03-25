@@ -14,9 +14,9 @@ let handler = async (m, { conn }) => {
 ║➥ SHOPEEPAY
 ║➥ QRIS ALLPAYMENT
 ╠═ Tertarik Untuk Beli Bot Ini?
-╠➥Klil Button Di Bawah
+╠➥Klik Button Di Bawah
 ║
-╠═〘 wz store 〙 ═`.trim(), '❖ Wz-Bot', 'Gopay', '#viadigi', 'Dana', '#viaumobile', m)
+╠═〘 Hyzer 〙 ═`.trim(), '❖ Wz-Bot', 'Gopay', '#viadigi', 'Dana', '#viaumobile', m)
 }
 
 handler.command = /^sewabot$/i
